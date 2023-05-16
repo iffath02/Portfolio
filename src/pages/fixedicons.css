@@ -1,0 +1,24 @@
+.fixed-icons {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.6rem;
+}
+
+.fixed-icons a {
+  text-decoration: none;
+}
+
+.icon {
+  display: block;
+  margin-bottom: 10px;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  color: rgb(62, 134, 91);
+}
+
+.icon:hover {
+  color: #00fa96;
+}
