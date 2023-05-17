@@ -60,9 +60,9 @@ function Layout() {
           >
             <BsLinkedin className="icon" />
           </a>
-          <a onClick={handleEmailClick}>
+          <button onClick={handleEmailClick} className="icon-button">
             <MdEmail className="icon" />
-          </a>
+          </button>
         </div>
       )}
       <section id="home">
