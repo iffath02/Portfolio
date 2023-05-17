@@ -68,13 +68,11 @@ const Contact = () => {
             </div>
             <div className="contact-item">
               <AiFillLinkedin className="contact-icon" />
-              <a href="https://www.linkedin.com/in/your-linkedin-profile">
-                LinkedIn
-              </a>
+              <a href="https://www.linkedin.com/in/iffath-fatima/">LinkedIn</a>
             </div>
             <div className="contact-item">
               <AiFillGithub className="contact-icon" />
-              <a href="https://github.com/your-github-profile">GitHub</a>
+              <a href="https://github.com/iffath02">GitHub</a>
             </div>
           </div>
         </Col>
