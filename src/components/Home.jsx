@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import "./home.css"
-import banner from "../dev.png"
-import Button from "react-bootstrap/Button"
+
 import Typewriter from "typewriter-effect"
 
 export default function Home() {
@@ -53,21 +52,8 @@ export default function Home() {
     </div>
   )
 }
-
+/*
 {
-  /* <div style={{ padding: 50, textAlign: "left" }}>
-<Typewriter
-  options={{
-    strings: [
-      "Front-end Developer",
-      "Back-end Developer",
-      "Junior Software Engineer",
-    ],
-    autoStart: true,
-    loop: true,
-    deleteSpeed: 50,
-  }}
-/>
 <Button
   style={{ marginTop: 20 }}
   size="lg"
@@ -76,4 +62,3 @@ export default function Home() {
   Resume
 </Button>{" "}
 </div> */
-}

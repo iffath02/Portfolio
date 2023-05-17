@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import ProjectCard from "../components/ProjectCard"
 import kickstart from "../Female-Developer.jpg"
 import moneyhoncho from "../screenshots/screenshot3.png"
-import { Carousel } from "react-bootstrap"
+
 import "./projects.css"
 
 const Projects = () => {
