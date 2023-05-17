@@ -16,9 +16,10 @@
   width: 30px;
   height: 30px;
   padding: 2px;
-  color: rgb(62, 134, 91);
+  color: #00fa96;
 }
 
 .icon:hover {
   color: #00fa96;
+  /* color: rgb(62, 134, 91);*/
 }

@@ -3,11 +3,16 @@
   z-index: -1;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  background-image: url("../assets/vecteezy_a-close-up-of-two-programmers-writing-code_1310584.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  /* color: whitesmoke; */
+  color: #fff44f;
   text-align: left;
 }
 
@@ -61,12 +66,12 @@
 }
 
 .main-name {
-  color: #004242;
+  color: #fff44f;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #343434 !important;
+  color: #00fa96;
   /* color: #be6adf !important; */
   font-weight: 600 !important;
 }
@@ -83,5 +88,9 @@
   }
   .Typewriter__cursor {
     display: none !important;
+  }
+
+  .home-section {
+    height: 100vh;
   }
 }

@@ -34,9 +34,6 @@ function NavBar() {
         className={navColour ? "sticky" : "navbar"}
       >
         <Container>
-          <Navbar.Brand href="#home" className="d-flex">
-            Portfolio
-          </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             onClick={() => {
