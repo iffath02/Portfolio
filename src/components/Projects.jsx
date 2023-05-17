@@ -24,7 +24,7 @@ const Projects = () => {
               title="Money Honcho"
               description="A full-stack application that helps you set-up a budget and keep track of the expenses. Frontend developed using React and backend using Express.js and PostgreSQL"
               ghLink="https://github.com/iffath02/money-honcho-frontend"
-              demoLink="https://project-krypto.netlify.app/"
+              demoLink="https://"
             />
           </Col>
 
@@ -35,7 +35,7 @@ const Projects = () => {
               title="Learning Loop"
               description="A full-stack application that enables users to enhance their skills by accessing a variety of technical courses and engaging in CRUD (Create, Read, Update, Delete) operations. Developed using JavaScript, PostgreSQL, Express, EJS, CSS"
               ghLink="https://github.com/iffath02/elearning-website"
-              demoLink="https://project-krypto.netlify.app/"
+              demoLink="https://"
             />
           </Col>
 
@@ -46,7 +46,7 @@ const Projects = () => {
               title="Servo App"
               description="Collaborated with a team to develop a single page application that utilizes user's current location to find petrol stations and display it using Google Maps API. Developed using JavaScript, PostgreSQL, Express, EJS, CSS"
               ghLink="https://github.com/iffath02/servo-app"
-              demoLink="https://project-krypto.netlify.app/"
+              demoLink="https:/"
             />
           </Col>
         </Row>
