@@ -37,10 +37,10 @@
   }
 } */
 
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&family=Roboto&family=Source+Code+Pro:wght@300&family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro:wght@300&display=swap");
 body {
   margin: 0;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   /* font-family: "Lato", sans-serif; */
   /* font-family: "Source Code Pro", monospace; */
 }
