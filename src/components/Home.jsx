@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap"
 import "./home.css"
-
+import banner from "../home.jpg"
 import Typewriter from "typewriter-effect"
 
 export default function Home() {
