@@ -1,8 +1,9 @@
 import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import ProjectCard from "../components/ProjectCard"
-import kickstart from "../Female-Developer.jpg"
 import moneyhoncho from "../screenshots/screenshot3.png"
+import learninLoop from "../screenshots/learning_loop.png"
+import servoApp from "../screenshots/servo-app.png"
 
 import "./projects.css"
 
@@ -30,7 +31,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={learninLoop}
               isBlog={false}
               title="Learning Loop"
               description="A full-stack application that enables users to enhance their skills by accessing a variety of technical courses and engaging in CRUD (Create, Read, Update, Delete) operations. Developed using JavaScript, PostgreSQL, Express, EJS, CSS"
@@ -41,7 +42,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={servoApp}
               isBlog={false}
               title="Servo App"
               description="Collaborated with a team to develop a single page application that utilizes user's current location to find petrol stations and display it using Google Maps API. Developed using JavaScript, PostgreSQL, Express, EJS, CSS"
