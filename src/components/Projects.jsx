@@ -36,7 +36,7 @@ const Projects = () => {
               title="Learning Loop"
               description="A full-stack application that enables users to enhance their skills by accessing a variety of technical courses and engaging in CRUD (Create, Read, Update, Delete) operations. Developed using JavaScript, PostgreSQL, Express, EJS, CSS"
               ghLink="https://github.com/iffath02/elearning-website"
-              demoLink="https://"
+              demoLink="https://learning-loop.onrender.com/"
             />
           </Col>
 
