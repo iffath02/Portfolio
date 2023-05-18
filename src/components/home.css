@@ -12,7 +12,8 @@
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: black;
+  /* color: black; */
+  color: white;
   text-align: left;
 }
 
@@ -67,6 +68,7 @@
 
 .main-name {
   color: #182721;
+  color: white;
 }
 
 .Typewriter__wrapper {

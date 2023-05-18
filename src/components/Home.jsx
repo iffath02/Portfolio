@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap"
 import "./home.css"
-import banner from "../dev.png"
 import Typewriter from "typewriter-effect"
+import image from "../picture.jpg"
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={banner}
+                src={image}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}

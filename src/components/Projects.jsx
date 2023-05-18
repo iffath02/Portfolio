@@ -12,9 +12,9 @@ const Projects = () => {
     <Container fluid className="project-section">
       <Container>
         <h1 style={{ textAlign: "center" }} className="project-heading">
-          <strong className="yellow">Projects </strong>
+          <strong style={{ color: "white" }}>Projects </strong>
         </h1>
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center", color: "white" }}>
           Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

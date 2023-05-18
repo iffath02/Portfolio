@@ -50,7 +50,7 @@ const Contact = () => {
         style={{ textAlign: "center", marginBottom: "110px" }}
         className="project-heading"
       >
-        <strong className="yellow">Contact</strong>
+        <strong style={{ color: "white" }}>Contact</strong>
       </h1>
       <Row>
         <Col md={6} className="c-left">
@@ -62,17 +62,27 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-item">
               <MdEmail className="contact-icon" />
-              <a href="mailto:iffathfatima02@gmail.com">
+              <a
+                style={{ color: "white" }}
+                href="mailto:iffathfatima02@gmail.com"
+              >
                 iffathfatima02@gmail.com
               </a>
             </div>
             <div className="contact-item">
               <AiFillLinkedin className="contact-icon" />
-              <a href="https://www.linkedin.com/in/iffath-fatima/">LinkedIn</a>
+              <a
+                style={{ color: "white" }}
+                href="https://www.linkedin.com/in/iffath-fatima/"
+              >
+                LinkedIn
+              </a>
             </div>
             <div className="contact-item">
               <AiFillGithub className="contact-icon" />
-              <a href="https://github.com/iffath02">GitHub</a>
+              <a style={{ color: "white" }} href="https://github.com/iffath02">
+                GitHub
+              </a>
             </div>
           </div>
         </Col>

@@ -7,8 +7,11 @@ const Skillset = () => {
   return (
     <Container fluid className="about-section">
       <Container>
-        <h1 style={{ textAlign: "center" }} className="project-heading">
-          Professional <strong className="yellow">Skillset </strong>
+        <h1
+          style={{ textAlign: "center", color: "white" }}
+          className="project-heading"
+        >
+          Professional <strong style={{ color: "white" }}>Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Col xs={4} md={2} className="tech-icons">
@@ -33,10 +36,16 @@ const Skillset = () => {
             <i class="devicon-jest-plain colored"></i>
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <i class="devicon-github-original-wordmark colored"></i>
+            <i
+              style={{ color: "white" }}
+              class="devicon-github-original-wordmark"
+            ></i>
           </Col>
           <Col xs={4} md={2} className="tech-icons">
-            <i class="devicon-express-original-wordmark colored"></i>
+            <i
+              style={{ color: "white" }}
+              class="devicon-express-original-wordmark"
+            ></i>
           </Col>
           <Col xs={4} md={2} className="tech-icons">
             <i class="devicon-postgresql-plain-wordmark colored"></i>
