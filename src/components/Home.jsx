@@ -2,11 +2,13 @@ import { Container, Row, Col } from "react-bootstrap"
 import "./home.css"
 import Typewriter from "typewriter-effect"
 import image from "../picture.jpg"
+import Particle from "./particle"
 
 export default function Home() {
   return (
     <div className="home">
       <Container fluid className="home-section" id="home">
+        <Particle />
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
@@ -42,7 +44,7 @@ export default function Home() {
               <img
                 src={image}
                 alt="home pic"
-                className="img-fluid"
+                className="border img-fluid"
                 style={{ maxHeight: "450px" }}
               />
             </Col>

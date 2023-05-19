@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react"
-// import emailjs from "@emailjs/browser"
+import emailjs from "@emailjs/browser"
 import { Container, Row, Col } from "react-bootstrap"
 import Button from "react-bootstrap/Button"
 import "./Contact.css"
@@ -24,23 +24,22 @@ const Contact = () => {
     if (!formData.from_name || !formData.reply_to || !formData.message) {
       setNotDone(true)
     } else {
-      //  Please use your own credentials from emailjs or i will recive your email
-      //   emailjs
-      //     .sendForm(
-      //       "service_niilndo",
-      //       "template_6z5idye",
-      //       form.current,
-      //       "VOBt6Akm1LhI5CZG-"
-      //     )
-      //     .then(
-      //       result => {
-      //         console.log(result.text)
-      //         setDone(true)
-      //       },
-      //       error => {
-      //         console.log(error.text)
-      //       }
-      //     )
+      emailjs
+        .sendForm(
+          "service_aht4esk",
+          "template_d9934kv",
+          form.current,
+          "ptL0IBhoVOxiLncBH"
+        )
+        .then(
+          result => {
+            console.log(result.text)
+            setDone(true)
+          },
+          error => {
+            console.log(error.text)
+          }
+        )
     }
   }
 
@@ -116,7 +115,7 @@ const Contact = () => {
             </Button>
             <span className="done">
               {done &&
-                "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}
+                "Thanks for contacting me and be sure I have recieved your mail. If there are any specific inquiries or important requirements that require my attention, please message me on LinkenIn, and I will promptly respond."}
             </span>
           </form>
         </Col>

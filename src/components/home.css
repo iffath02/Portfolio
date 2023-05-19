@@ -3,11 +3,18 @@
   z-index: -1;
   padding-bottom: 30px !important;
   padding-top: 30px !important;
+  background-image: var(--image-gradient), url(../assets/home-bg.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
   /* background-image: url("../assets/vecteezy_a-close-up-of-two-programmers-writing-code_1310584.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh; */
+}
+
+.border {
+  border-radius: 80px;
 }
 
 .home-content {
