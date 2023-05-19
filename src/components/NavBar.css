@@ -83,7 +83,7 @@
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
     /* background-color: #182721 !important; */
-    background-color: #181a27 !important;
+    background-color: rgb(18, 13, 67);
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
