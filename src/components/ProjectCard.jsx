@@ -8,7 +8,12 @@ import "./projects.css"
 const ProjectCard = props => {
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      <Card.Img
+        variant="top"
+        src={props.imgPath}
+        alt="card-img"
+        className="project-card-image"
+      />
       <Card.Body className="d-flex flex-column justify-content-between">
         <div>
           <Card.Title style={{ textAlign: "center" }}>{props.title}</Card.Title>
@@ -16,7 +21,7 @@ const ProjectCard = props => {
             {props.description}
           </Card.Text>
         </div>
-        <div className="d-flex justify-content-center">
+        <div className="project-card-buttons d-flex justify-content-center">
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp; Github
           </Button>
