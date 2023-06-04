@@ -96,7 +96,7 @@ function NavBar() {
                     className="resume-link"
                     onClick={() =>
                       window.open(
-                        "https://drive.google.com/file/d/1PfqU8IfgEZUwN6EA7IzTkHFVlRUY4Qoe/view",
+                        "https://drive.google.com/file/d/1NWrqGveJiMN8fmmyjvQqtgMLNwKZJMul/view?usp=drive_link",
                         "_blank"
                       )
                     }
